@@ -29,7 +29,7 @@ const Contact = () => {
     setStatus("");
 
     try {
-      const response = await fetch("https://shiva-portfolio-atml.onrender.com", {
+      const response = await fetch("http://localhost:5000/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
